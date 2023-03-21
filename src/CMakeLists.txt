@@ -1,0 +1,9 @@
+add_executable(
+        archiver
+        archiver.cpp
+        command_line_error.cpp
+        command_line_parser.cpp
+        file_io_error.cpp
+        file_io.cpp
+        parser_setup.cpp
+)
